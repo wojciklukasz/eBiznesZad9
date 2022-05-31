@@ -3,8 +3,8 @@ import useBasket from "../hooks/useBasket";
 
 const defaultValue = {
     basket: [],
-    addProduct: () => {},
-    removeProduct: () => {},
+    addProduct: () => { return 0; },
+    removeProduct: () => { return 0; },
     total: Number
 };
 

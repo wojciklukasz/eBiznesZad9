@@ -5,8 +5,8 @@ import useBasket from "../hooks/useBasket";
 const defaultValue = {
     products: [],
     basket: [],
-    addProduct: () => {},
-    removeProduct: () => {},
+    addProduct: () => { return 0; },
+    removeProduct: () => { return 0; },
     total: Number
 };
 
@@ -26,8 +26,8 @@ export const ShopContextProvider = ({children}) => {
 
     useEffect(() => {
         fetchProducts()
-            .then((products) => {
-                setProducts(products);
+            .then((p) => {
+                setProducts(p);
                 setBasket([]);
                 setTotal(0);
             })

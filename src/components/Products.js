@@ -5,9 +5,6 @@ import {Link} from "react-router-dom";
 export const Products = () => {
     const { products, addProduct } = useContext(ShopContextProvider);
 
-    // console.log(products[0])
-    // console.log(products.map((product) => product.Name))
-
     return (
         <div>
             <nav
