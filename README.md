@@ -1,4 +1,4 @@
-# eBiznesZad9
+# eBiznesZad8
 
 Repozytorium zawiera tylko frontend. Backend znajduje sie pod tym linkiem:
 
